@@ -3,52 +3,53 @@
 
 <head>
     <title>Practice Layout</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
     <div class="main-container">
         <div class="header">
-            <div class="container">
-                <div class="logo"></div>
-                <div class="search-box"></div>
+            <div class="clearfix container">
+                <div class="logo"><img src="logo.png" alt="Github Logo"></div>
+                <input type="text" placeholder="Search GitHub" class="search-box">
                 <div class="header-links">
                     <a href="">Pull Requests</a>
                     <a href="">Issues</a>
                     <a href="">MarketPlace</a>
                     <a href="">Gists</a>
                 </div>
-                <div class="action-button-icon">+</div>
-                <div class="profile-icon"></div>
+                <div class="profile-icon"><img src="icon.png" alt="Profile picture" width="20px" height="
+                20px"></div>
+                <div class="action-button-icon">+ </div>
+
             </div>
         </div>
-        <div class="content-container">
+        <div class="clearfix content-container">
             <div class="sidebar-container">
-                <img src="" alt="My Friend's Picture">
+                <img src="mohit1.jpg" alt="My Friend's Picture" width="229px" height="230px">
                 <h1>Mohit Gupta</h1>
                 <h3>thedeveloperr</h3>
-                <h4>Undergrad. Developer. DIY Maker</h4>
+                <h5>Undergrad. Developer. DIY Maker</h5>
                 <button type="submit">Follow</button>
                 <p>Block or report user</p>
-                <hr>
             </div>
             <div class="middle-container">
                 <div class="links">
                     <a href="">Overview</a>
-                    <a href="">Repositories</a>
+                    <a href="" class="active">Repositories</a>
                     <a href="">Stars</a>
                     <a href="">Followers</a>
                     <a href="">Following</a>
                 </div>
-                <hr>
-                <h3>Pinned Repositories</h3>
-                <div class="notebooks-container">
+                <div class="clearfix notebooks-container">
+                    <h3>Pinned Repositories</h3>
                     <div class="notebooks-card">
                         <h4>oppia/oppia</h4>
                         <p>Tool for collaboratively building interactive lessons.</p>
                     </div>
                     <div class="notebooks-card">
                         <h4>sbcamp2k17</h4>
-                        <p></p>
+                        <p>My practice code I wrote</p>
                     </div>
                     <div class="notebooks-card">
                         <h4>boardjs</h4>
@@ -64,7 +65,7 @@
                     </div>
                     <div class="notebooks-card">
                         <h4>social-leaderboard</h4>
-                        <p>Forked from sb-connect/social-leaderboard <br> The Social Leaderboard App for #SBCON 2017
+                        <p>Forked from sb-connect/social-leaderboard.The Social Leaderboard App for #SBCON 2017
                         </p>
                     </div>
                 </div>
